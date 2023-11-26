@@ -1,7 +1,6 @@
 public class Main {
   public static String script;
-
-public static void main(String[] args) {
+  public static void main(String[] args) {
       System.out.println("Hello World");
       System.out.println("new code of java");
       System.out.println("new start");
@@ -41,7 +40,27 @@ String firstName = "John ";
     int x = 10;
     int y = 50;
     System.out.println(x + y);
-  
+
+    boolean myBook = true;
+    boolean myColour = false;
+    System.out.println(myBook);
+    System.out.println(myColour);
+    
+    char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+System.out.println(myVar1);
+System.out.println(myVar2);
+System.out.println(myVar3);
+
+int myInt = 590;
+double myDouble = myInt;
+System.out.println(myInt);
+System.out.println(myDouble);
+
+double myDouble = 9.78d;
+    int myInt = (int) myDouble; // Manual casting: double to int
+
+    System.out.println(myDouble);   // Outputs 9.78
+    System.out.println(myInt);      // Outputs 9
     }
   }
   
